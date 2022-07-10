@@ -5,7 +5,7 @@ def attendance(tprice:Int):Int={
 }
 
 def cost(tprice:Int):Int={
-    return 500+attendance(tprice);
+    return 500+attendance(tprice)*3;
 }
 
 def profit(tprice:Int):Int={
